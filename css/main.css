@@ -163,3 +163,10 @@ a {
         margin-top: 10px;
     }
 }
+/* ----------------hero----------------- */
+.hero-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
