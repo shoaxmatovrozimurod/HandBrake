@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,48 +8,66 @@
     <link rel="stylesheet" href="./css/main.css">
     <title>HandBrake</title>
 </head>
+
 <body>
     <header class="header">
-    <h1 class="visually-hidden">Sahifa haqida</h1>
-    <div class="container">
-        <div class="header-container">
-            <div class="header-box">
-                <a href="#"><img class="header-box-logo" src="./images/logo.svg" alt="Logotip"></a>
+        <h1 class="visually-hidden">Sahifa haqida</h1>
+        <div class="container">
+            <div class="header-container">
+                <div class="header-box">
+                    <a href="#"><img class="header-box-logo" src="./images/logo.svg" alt="Logotip"></a>
+                </div>
+                <nav class="header-nav">
+                    <ul class="header-list">
+                        <li><a class="header-list-link" href="#">Docs</a></li>
+                        <li><a class="header-list-link" href="#">GitHub</a></li>
+                        <li><a class="header-list-link" href="#">News</a></li>
+                        <li><a class="header-list-link" href="#">Community & Support</a></li>
+                        <li><button class="header-list-btn">Downloads</button></li>
+                    </ul>
+                </nav>
+                <button class="bars" id="burgerBtn" aria-label="Toggle navigation">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
             </div>
-            <nav class="header-nav">
-                <ul class="header-list">
-                    <li><a class="header-list-link" href="#">Docs</a></li>
-                    <li><a class="header-list-link" href="#">GitHub</a></li>
-                    <li><a class="header-list-link" href="#">News</a></li>
-                    <li><a class="header-list-link" href="#">Community & Support</a></li>
-                    <li><button class="header-list-btn">Downloads</button></li>
+        </div>
+    </header>
+    <!-- ----------------------hero---------- -->
+    <div class="hero">
+        <div class="container">
+            <div class="hero-container">
+                <div class="hero-box">
+                    <h1 class="hero-box-title">
+                        Handbrake
+                        <span class="hero-box-title-sn">The open source video transcoder</span>
+                    </h1>
+                    <p class="hero-box-text">HandBrake is a tool for converting video from nearly any format to a
+                        selection of modern, widely supported codecs</p>
+                    <button class="hero-box-btn">Download for Free</button>
+                </div>
+                <div class="hero-wrapper">
+                    <img class="hero-wrapper-img" src="./images/hero.png" width="440" height="333" alt="hero-img">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------------section---------------- -->
+    <div class="section">
+        <div class="container">
+            <div class="section-container">
+                <ul class="section-list">
+                    <li class="section-item">Convert video from nearlyany format</li>
+                    <li class="section-item">Free and Open Source video converter</li>
+                    <li class="section-item">Multi-Platform desktop application</li>
                 </ul>
-            </nav>
-            <button class="bars" id="burgerBtn" aria-label="Toggle navigation">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </button>
-        </div>
-    </div>
-</header>
-<!-- ----------------------hero---------- -->
- <div class="hero">
-    <div class="container">
-        <div class="hero-container">
-            <div class="hero-box">
-                <h1 class="hero-box-title">Handbrake <span class="hero-box-title-sn">The open source video transcoder</span></h1>
-                <p class="hero-box-text">HandBrake is a tool for converting video from nearly any format to a selection of modern, widely supported codecs</p>
-                <button class="hero-box-btn">Download for Free</button>
-            </div>
-            <div class="hero-wrapper">
-                <img class="hero-wrapper-img" src="./images/hero.png" width="440" height="333px" alt="hero-img">
             </div>
         </div>
     </div>
- </div>
 
 
     <script src="./js/main.js"></script>
 </body>
+
 </html>
