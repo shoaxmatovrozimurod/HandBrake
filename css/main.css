@@ -135,7 +135,7 @@ a {
         position: fixed;
         top: 0;
         right: -100%;
-        width: 75%;
+        width: 700px;
         max-width: 300px;
         height: 100vh;
         background-color: #1391CE;
@@ -164,17 +164,15 @@ a {
     }
 }
 /* ----------------hero----------------- */
-/* Container check */
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
 }
 
-/* Hero Section Base */
 .hero {
     background-color: #1391CEB2;
-    padding: 60px 0; /* Qat'iy height o'rniga padding ishlatamiz */
+    padding: 60px 0; 
     min-height: 400px;
     display: flex;
     align-items: center;
